@@ -25,6 +25,7 @@ our $CI = grep $ENV{$_}, qw(
     PERL5_CPAN_IS_RUNNING
     PERL_CPAN_REPORTER_DIR
     PERL_CPAN_REPORTER_CONFIG
+    HARNESS_ACTIVE
 );
 
 if ($CI) {
