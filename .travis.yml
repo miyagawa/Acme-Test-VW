@@ -1,0 +1,7 @@
+sudo: false
+language: perl
+perl:
+  - "5.20"
+  - 5.18
+env: AUTOMATED_TESTING=1 AUTHOR_TESTING=1
+
