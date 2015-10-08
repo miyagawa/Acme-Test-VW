@@ -1,5 +1,5 @@
 {
-   "abstract" : "Blah blah blah",
+   "abstract" : "Makes your tests always pass under CI",
    "author" : [
       "Tatsuhiko Miyagawa <miyagawa@bulknews.net>"
    ],
@@ -37,12 +37,8 @@
       },
       "runtime" : {
          "requires" : {
+            "Test::More" : "0.98",
             "perl" : "5.008005"
-         }
-      },
-      "test" : {
-         "requires" : {
-            "Test::More" : "0.96"
          }
       }
    },
