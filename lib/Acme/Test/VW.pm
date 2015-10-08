@@ -49,7 +49,8 @@ Acme::Test::VW - Makes your tests always pass under CI
   # export PERL5OPT=-MAcme::Test::VW
 
   use Test::More;
-  ok 1 == 2;
+  ok 0;
+  is 100, 1000;
   done_testing;
 
 =head1 DESCRIPTION
