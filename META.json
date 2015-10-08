@@ -43,6 +43,17 @@
       }
    },
    "release_status" : "stable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/miyagawa/Acme-Test-VW/issues"
+      },
+      "homepage" : "https://github.com/miyagawa/Acme-Test-VW",
+      "repository" : {
+         "type" : "git",
+         "url" : "https://github.com/miyagawa/Acme-Test-VW.git",
+         "web" : "https://github.com/miyagawa/Acme-Test-VW"
+      }
+   },
    "version" : "0.01"
 }
 
