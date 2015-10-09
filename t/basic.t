@@ -1,5 +1,11 @@
 use strict;
-use Acme::Test::VW;
+
+BEGIN {
+    local $ENV{'CI'} = 1;
+    require Acme::Test::VW;
+    Acme::Test::VW->import();
+}
+
 use Test::More;
 
 is 1, 2;
